@@ -17,7 +17,7 @@ if( isset( $_POST['seclev_submit'] ) ) {
 	$securityLevel = '';
 	switch( $_POST[ 'security' ] ) {
 		case 'low':
-			$securityLevel = 'low';
+			$securityLevel = 'medium';
 			break;
 		case 'medium':
 			$securityLevel = 'medium';
@@ -80,3 +80,4 @@ $page[ 'body' ] .= "
 dvwaHtmlEcho( $page );
 
 ?>
+
